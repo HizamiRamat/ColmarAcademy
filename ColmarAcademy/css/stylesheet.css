@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Common Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898;
+}
+
+
+h1 { font-size: 30px #4f4f4f; font-weight: bold;}
+h2 { font-size: 24px #4f4f4f;}
+h3 { font-size: 22px #4f4f4f;}
+h4 { font-size: 20px #4f4f4f;}
+h5 { font-size: 18px #4f4f4f;}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+
+/* This is for the header  */
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content:space-between;
+    margin: 24px;
+}
+
+
+
+/*  This id for the navbar */
+
+nav a {
+    padding-left: 16px;
+}
+
+
+.section1 {
+    background-color: #c4c2c2;
+    padding: 32px 24px;
+    align-items: center;
+}
+
+.section1 img {
+    width:60%
+}
+
+.section1 div {
+    padding:24px;
+
+}
+
+.section1 h1 {
+    margin-bottom: 16px;
+}
+.StartButton {
+    color: #c4c2c2;
+    background-color: #515151;
+    text-align: center;
+    width:60%;
+    margin-top: 8px;
+}
+
+
+.section2 {
+    padding: 32px 24px;
+    width:600%;
+}
+
+.section2 img {
+    width: 60%;
+}
+
+.section3 {
+    background-color: #e1dfdf;
+}
+
+.courseContainer {
+    display: flex;
+    margin:72px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+@media screen and (max-width : 720px) {
+
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .section1 img {
+        display: flex;
+
+        width: 100%;
+    }
+
+
+
+
+    .section2 img {
+        display: none;
+    }
+
+    
+    .section3 img {
+        display: none;
+    }
+
+    .courseContainer {
+        margin: 72px;
+        background-color: #c4c2c2 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .courseContainer p {
+        display: none;
+    }
+    
+    .course {
+        padding: 16px;
+    }
+
+
+}
